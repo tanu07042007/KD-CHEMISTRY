@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar1{
+    height:370px;
+    background-color: rgba(0, 115, 153, 0.806);
+    justify-content: center;
+    border-bottom: 1.5px solid black;
+}
+.txt1{
+    font-weight: 100;
+    font-size: 110px;
+    color: aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:1.5em;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:0.039em;
+    text-shadow:0em 0.0375em 0.28125em rgba(0, 0, 0, 0.600000);
+}
+.txt2{
+    font-weight: 100;
+    font-size: 110px;
+    color: rgba(122, 251, 255, 0.766);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:0.6em;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:0.039em;
+    text-shadow:0em 0.0375em 0.28125em rgba(0, 0, 0, 0.600000);
+}
+.kdcl{
+    margin-top: 50px;
+    font-weight: 100;
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0.872);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:1em;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:0.039em;
+    text-shadow:0em 0.0375em 0.28125em rgba(0, 0, 0, 0.600000);
+}
+.border{
+    border: 2px solid white;
+    background-color: rgb(226, 226, 226);
+}
+.rm{
+    height:1050px;
+    background-image: url("chembg.png");
+    background-size:auto;
+    border-bottom: 2px solid rgb(255, 255, 255) ;
+    display: flex;
+}
+
+.txt3{
+    font-weight: 100;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.94);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:1.2em;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:0.039em;
+    text-shadow:0em 0.0375em 0.28125em rgba(0, 0, 0, 0.600000);
+    background-color:rgba(193, 240, 255, 0.806) ;
+}
+.borde2{
+    border:2px solid black;
+}
+.notes{
+    height:400px;
+    width:700px;
+    display:flex;
+    justify-content: right;
+    align-self: top;
+}
+.sp{
+    height:400px;
+    width:700px;
+    display:flex;
+    justify-content: left;
+    align-self: flex-start;
+}
+.notebox{
+    border:2px solid rgba(128, 128, 128, 0);
+    border-radius: 50px;
+    height:200px;
+    width:350px;
+    background-color: rgb(97, 184, 255);
+    align-self:flex-end;
+}  
+.spbox{
+    border:2px solid rgba(128, 128, 128, 0);
+    border-radius: 50px;
+    height:200px;
+    width:350px;
+    background-color: rgb(97, 184, 255);
+    align-self:flex-end;
+}  
+.noteimg{
+    background-image: url(nt.png);
+    background-size: cover;
+    height:220px;
+    width:180px;
+    margin-left: 80px;
+    margin-top:-100px;
+}
+.spimg{
+    background-image: url(nt.png);
+    background-size: cover;
+    height:220px;
+    width:180px;
+    margin-left: 80px;
+    margin-top:-100px;
+}
+.blur1{
+    background-image: linear-gradient(to top,rgba(97, 184, 255, 0.948),rgba(255, 255, 255, 0));
+    background-size: cover;
+    height:220px;
+    width:180px;
+    margin-left: 80px;
+    margin-top:-220px;
+}
+.blur2{
+    background-image: linear-gradient(to top,rgba(97, 184, 255, 0.948),rgba(255, 255, 255, 0));
+    background-size: cover;
+    height:220px;
+    width:180px;
+    margin-left: 80px;
+    margin-top:-220px;
+}
+.ntb{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 50px;
+    background-color: rgb(136, 137, 88);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    height:50px;
+    margin-top:15px;
+    margin-left:60px;
+    cursor: pointer;
+}
+.spb{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 50px;
+    background-color: rgb(136, 137, 88);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    height:50px;
+    margin-top:15px;
+    margin-left:60px;
+    cursor: pointer;
+}
+.road{
+    height:600px;
+    width:300px;
+    background-image: url(rd.png);
+    background-size: cover;
+    height:1020px;
+    width:300px;
+    margin-left:70px;
+    margin-top:30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.aero{
+    background-image: url("aero.png");
+    background-size: cover;
+    height:300px;
+    width: 300px;
+    transform: rotate(180deg);
+    margin-bottom: 30px;   
+}
+.footbar1{
+    height:370px;
+    background-image:url("black.png");
+    border-bottom: 1.5px solid black;
+    display: flex;
+}
+.detailb{
+    align-items: center;
+    display: flex;
+    height:100px;
+    width:400px;
+    justify-content: right;
+}
+.ab{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(96, 128, 128);
+}
+.unl{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(90, 100, 22);
+    margin-left: 20px;
+}
+.adb{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(96, 128, 128);
+    margin-left: 20px;
+}
+.name{
+    height:250px;
+    width:300px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+.oname{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color:snow;
+    font-size: 30px;
+}
+.tlogo{
+    display: flex;
+    height:370px;
+    width: 1300px;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    background-image: url("logo.png");
+    background-size: cover;
+    height:200px;
+    width:200px;
+    border:5px solid rgb(178, 255, 250);
+    border-radius: 200px;
+    background-color: black;
+}
+.area{
+    align-content: center;
+}
+.area2{
+    align-content: center;
+    margin-left: auto;
+}
+.border10{
+    border:2px solid transparent;
+}
+.border10:hover{
+    border: 2px solid rgba(0, 42, 255, 0);
+    background-color: aqua;
+}
+.border20{
+    border:2px solid transparent;
+}
+.border20:hover{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(246, 255, 0);
+}
